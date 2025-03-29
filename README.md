@@ -1,6 +1,6 @@
-🚀 Dynamic home directory backup with crontab and rsync
+# 🚀 Dynamic home directory backup with crontab and rsync
 
-🌐 Overview
+## 🌐 Overview
 
 It uses **rsync** to dynamically back up the home directory. The first time it is run, it takes a while to generate a copy of the files, but from the second time onwards, only the two directories are synchronized. This is very practical because it only makes copies on demand, more efficiently, and not the entire directory every time.
 
@@ -29,7 +29,7 @@ Example output:
 ```
 For more details on crontab syntax, consult the manual or use https://crontab.guru/ for help.
 
-📁 Clone Repository
+## 📁 Clone Repository
 
 Clone this repository via Bash using:
 
@@ -51,7 +51,7 @@ git clone git@github.com:SamColt36/dynamic-backup-of-home-directory
 gh repo clone SamColt36/dynamic-backup-of-home-directory
 ```
 
-📶 Status
+## 📶 Status
 
 The project is currently:
 
@@ -72,7 +72,7 @@ bash daily-backup.sh
 > daily-backup.sh: For a daily backup to keep files easily accessible in a crisis situation;
 > weekly-backup.sh: For a weekly backup with compression.
 
-👥 Contributions
+## 👥 Contributions
 
 Contributions are welcome! Feel free to submit pull requests or report issues.
 📄 License
