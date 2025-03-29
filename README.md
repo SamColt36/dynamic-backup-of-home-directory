@@ -35,15 +35,21 @@ Clone this repository via Bash using:
 
 ✅ HTTPS:
 
+```bash
 git clone https://github.com/SamColt36/dynamic-backup-of-home-directory
+```
 
 ✅ SSH:
 
+```bash
 git clone git@github.com:SamColt36/dynamic-backup-of-home-directory
+```
 
 ✅ GitHub CLI:
 
+```bash
 gh repo clone SamColt36/dynamic-backup-of-home-directory
+```
 
 📶 Status
 
